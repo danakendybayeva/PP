@@ -10,18 +10,18 @@ namespace w1_t2
     {
         string id;
         string name;
-        int year;
+        int year = 1;
 
-        public Student(string id, string name) // creating the constructor
+        public Student(string id, string name) // creating parameters
         {
             this.name = name;
             this.id = id;
-            this.year = DateTime.Now.Year;
 
+            //creating constructors
         }
         public void GetData() // method for showing id and name
         {
-            Console.WriteLine(id + " " + name); // outputs id and name
+            Console.WriteLine(id + " " + name + " " + year); // outputs id and name
         }
         public void IncreamentYear() //method for incrementing year
         {
@@ -36,6 +36,7 @@ namespace w1_t2
             Student s = new Student("18BD45679", "Asem");// adding new student
             s.GetData();// method for showing id and name
             s.IncreamentYear();//method for incrementing year
+            s.GetData();
         }
     }
 }
