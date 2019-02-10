@@ -36,18 +36,19 @@ namespace w1_t1
             string[] nums = Console.ReadLine().Split(new char[] { ' ' });
             //spliting the given string of numbers into separate chars, so we can use them
             int cnt = 0; //counter for prime numbers 
-            string answer = "";// string for output
-            for (int i = 0; i < n; ++i)
+            string ans = "";// string for output
+            for (int i = 0; i < n; i++)
             {
                 a[i] = int.Parse(nums[i]); // converting from string to int
                 if (Prime(a[i])) // checking if the number is prime or not
                 {
                     cnt++; // if number is prime the counter increases for 1
-                    answer = answer + a[i].ToString() + " "; // getting ready the output
-                }
+                    ans = ans + a[i].ToString() + " "; // getting ready the output
+                
+                
             }
             Console.WriteLine(cnt.ToString()); // output counter
-            Console.WriteLine(answer); // output prime numbers 
+            Console.WriteLine(ans); // output prime numbers 
         }
     }
 }

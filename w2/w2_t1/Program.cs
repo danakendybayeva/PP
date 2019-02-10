@@ -24,9 +24,8 @@ namespace w2_t1
 
         static void Main(string[] args)
         {
-            string s = File.ReadAllText(@"C:\Users\Swist\Desktop\c#\input1.txt");
-            bool pl = IsPalindrome(s);
-            if (pl == true) Console.WriteLine("Yes");
+            string s = File.ReadAllText(@"C:\Users\Swist\Desktop\c#\w2\input1.txt");
+            if (IsPalindrome(s)) Console.WriteLine("Yes");
             else Console.WriteLine("No");
         }
     }

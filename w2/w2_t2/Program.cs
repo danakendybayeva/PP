@@ -31,23 +31,34 @@ namespace w2_t2
         }
         static void Main(string[] args)
         {
-            string s = File.ReadAllText(@"C:\Users\Swist\Desktop\c#\input2.txt");
-            int n = Convert.ToInt16(s); // amount of numbers
-            int[] a = new int[n]; // creating an array of size n
+            List<string> l = new List<string>();
+            string s = File.ReadAllText(@"C:\Users\Swist\Desktop\c#\w2\input2.txt");
             string[] nums = Console.ReadLine().Split(new char[] { ' ' });
+            foreach (var x in nums)
+            {
+                int y = int.Parse(x);
+                if (Prime(y))
+                {
+                    l.Add(x);
+                }
+            }
+            //int n = nums.Length; // amount of numbers
+            //int[] a = new int[n]; // creating an array of size n
             //spliting the given string of numbers into separate chars, so we can use them
-            int cnt = 0; //counter for prime numbers 
-            string answer = "";// string for output
+            /*string answer = "";// string for output
             for (int i = 0; i < n; ++i)
             {
                 a[i] = int.Parse(nums[i]); // converting from string to int
                 if (Prime(a[i])) // checking if the number is prime or not
                 {
-                    cnt++; // if number is prime the counter increases for 1
                     answer = answer + a[i].ToString() + " "; // getting ready the output
                 }
+            }*/
+            foreach(var y in l)
+            {
+                File.WriteAllText(@"C:\Users\Swist\Desktop\c#\w2\output2.txt", y);
             }
-            File.WriteAllText(@"C:\Users\Swist\Desktop\c#\output2.txt", answer);
+            
         }
     }
 }
