@@ -1,0 +1,7 @@
+C:\Users\Swist\Desktop\c#\w2\w2_t3\bin\Debug\w2_t3.exe.config
+C:\Users\Swist\Desktop\c#\w2\w2_t3\bin\Debug\w2_t3.exe
+C:\Users\Swist\Desktop\c#\w2\w2_t3\bin\Debug\w2_t3.pdb
+C:\Users\Swist\Desktop\c#\w2\w2_t3\obj\Debug\w2_t3.csproj.CoreCompileInputs.cache
+C:\Users\Swist\Desktop\c#\w2\w2_t3\obj\Debug\w2_t3.exe
+C:\Users\Swist\Desktop\c#\w2\w2_t3\obj\Debug\w2_t3.pdb
+C:\Users\Swist\Desktop\c#\w2\w2_t3\obj\Debug\w2_t3.csprojAssemblyReference.cache
