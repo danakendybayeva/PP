@@ -1,0 +1,7 @@
+C:\Users\Swist\Desktop\W3G2\FarManager3\obj\Debug\FarManager3.csprojAssemblyReference.cache
+C:\Users\Swist\Desktop\W3G2\FarManager3\obj\Debug\FarManager3.csproj.CoreCompileInputs.cache
+C:\Users\Swist\Desktop\W3G2\FarManager3\bin\Debug\FarManager3.exe.config
+C:\Users\Swist\Desktop\W3G2\FarManager3\bin\Debug\FarManager3.exe
+C:\Users\Swist\Desktop\W3G2\FarManager3\bin\Debug\FarManager3.pdb
+C:\Users\Swist\Desktop\W3G2\FarManager3\obj\Debug\FarManager3.exe
+C:\Users\Swist\Desktop\W3G2\FarManager3\obj\Debug\FarManager3.pdb

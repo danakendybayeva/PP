@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{487208E1-D613-4616-985E-FE3BAD8724B4}</ProjectGuid>
+    <ProjectGuid>{433FDF5A-5879-4BC6-B3A8-289D4CED5197}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>w3_t2</RootNamespace>
-    <AssemblyName>w3_t2</AssemblyName>
+    <RootNamespace>FarManager3</RootNamespace>
+    <AssemblyName>FarManager3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Layer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
