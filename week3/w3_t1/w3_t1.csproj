@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{433FDF5A-5879-4BC6-B3A8-289D4CED5197}</ProjectGuid>
+    <ProjectGuid>{5E27D9F5-6645-4FFC-989C-BDE7DE14D015}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FarManager3</RootNamespace>
-    <AssemblyName>FarManager3</AssemblyName>
+    <RootNamespace>w3_t1</RootNamespace>
+    <AssemblyName>w3_t1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

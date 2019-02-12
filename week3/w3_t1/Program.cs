@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FarManager3
+namespace w3_t1
 {
     enum ViewMode
     {
@@ -16,7 +16,7 @@ namespace FarManager3
     class Program
     {
         static void Main(string[] args)
-        { 
+        {
             DirectoryInfo dir = new DirectoryInfo(@"C:\Users\Swist\Desktop\Aegisub");
             Stack<Layer> history = new Stack<Layer>();
             history.Push(
@@ -46,7 +46,7 @@ namespace FarManager3
                         if (fileSystemInfo3.GetType() == typeof(DirectoryInfo))
                         {
                             DirectoryInfo directoryInfo = fileSystemInfo3 as DirectoryInfo;
-                            Directory.Move(fileSystemInfo3.FullName, directoryInfo.Parent + "/" + name);
+                            Directory.Move(fileSystemInfo3.FullName, Directory.GetParent(directoryInfo.FullName) + "/" + name);
                             history.Peek().Content = directoryInfo.Parent.GetFileSystemInfos();
                         }
                         else

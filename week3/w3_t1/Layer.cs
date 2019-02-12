@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FarManager3
+namespace w3_t1
 {
     class Layer
     {
@@ -39,7 +39,7 @@ namespace FarManager3
             }
         }
 
-        
+
 
         public void Draw()
         {

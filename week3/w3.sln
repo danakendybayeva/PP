@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2047
+VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "w3_t1_2", "FarManager3\w3_t1_2.csproj", "{433FDF5A-5879-4BC6-B3A8-289D4CED5197}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "w3_t1", "w3_t1\w3_t1.csproj", "{5E27D9F5-6645-4FFC-989C-BDE7DE14D015}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{433FDF5A-5879-4BC6-B3A8-289D4CED5197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{433FDF5A-5879-4BC6-B3A8-289D4CED5197}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{433FDF5A-5879-4BC6-B3A8-289D4CED5197}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{433FDF5A-5879-4BC6-B3A8-289D4CED5197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E27D9F5-6645-4FFC-989C-BDE7DE14D015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E27D9F5-6645-4FFC-989C-BDE7DE14D015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E27D9F5-6645-4FFC-989C-BDE7DE14D015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E27D9F5-6645-4FFC-989C-BDE7DE14D015}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {75329CD7-2FD0-4844-8EC4-7700C42E6796}
+		SolutionGuid = {B3007B41-51BC-4096-BBA9-03C6A0A9E222}
 	EndGlobalSection
 EndGlobal
