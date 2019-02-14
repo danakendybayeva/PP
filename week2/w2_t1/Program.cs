@@ -9,7 +9,7 @@ namespace w2_t1
 {
     class Program
     {
-        public static bool IsPalindrome(string s)
+        static bool IsPalindrome(string s)
         {
             if (s.Length <= 1)
                 return true;
@@ -24,7 +24,7 @@ namespace w2_t1
 
         static void Main(string[] args)
         {
-            string s = File.ReadAllText(@"C:\Users\Swist\Desktop\c#\w2\input1.txt");
+            string s = File.ReadAllText(@"C:\Users\Swist\Desktop\c#\week2\input1.txt");
             if (IsPalindrome(s)) Console.WriteLine("Yes");
             else Console.WriteLine("No");
         }

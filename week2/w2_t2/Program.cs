@@ -33,15 +33,15 @@ namespace w2_t2
         {
             List<string> l = new List<string>();
 
-            FileStream fs = new FileStream(@"C:\Users\Swist\Desktop\c#\w2\input2.txt", FileMode.Open, FileAccess.Read);
+            FileStream fs = new FileStream(@"C:\Users\Swist\Desktop\c#\week2\input2.txt", FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(fs);
 
             string line = sr.ReadLine();
-            string[] nums = line.Split(' ');
+            string[] nums = line.Split(new char[] { ' ' });
 
             foreach (var x in nums)
             {
-                if (Prime(int.Parse(x)))
+                if (Prime(Convert.ToInt32(x)))
                 {
                     l.Add(x);
                 }
@@ -50,7 +50,7 @@ namespace w2_t2
             sr.Close();
             fs.Close();
 
-            FileStream fs2 = new FileStream(@"C:\Users\Swist\Desktop\c#\w2\output2.txt", FileMode.Create, FileAccess.Write);
+            FileStream fs2 = new FileStream(@"C:\Users\Swist\Desktop\c#\week2\output2.txt", FileMode.Create, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs2);
 
             foreach (var x in l)

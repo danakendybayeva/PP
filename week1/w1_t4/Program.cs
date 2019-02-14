@@ -21,7 +21,8 @@ namespace w1_t4
                     Console.Write(arr[i, j]);//output [*]
                 }
                     
-                    Console.WriteLine();//jump to a new line
+                    Console.WriteLine();//jump to a new line\
+
 
             }
         }

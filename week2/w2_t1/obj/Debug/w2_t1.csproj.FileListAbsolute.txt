@@ -5,3 +5,10 @@ C:\Users\Swist\Desktop\c#\w2\w2_t1\obj\Debug\w2_t1.csprojAssemblyReference.cache
 C:\Users\Swist\Desktop\c#\w2\w2_t1\obj\Debug\w2_t1.csproj.CoreCompileInputs.cache
 C:\Users\Swist\Desktop\c#\w2\w2_t1\obj\Debug\w2_t1.exe
 C:\Users\Swist\Desktop\c#\w2\w2_t1\obj\Debug\w2_t1.pdb
+C:\Users\Swist\Desktop\c#\week2\w2_t1\bin\Debug\w2_t1.exe.config
+C:\Users\Swist\Desktop\c#\week2\w2_t1\bin\Debug\w2_t1.exe
+C:\Users\Swist\Desktop\c#\week2\w2_t1\bin\Debug\w2_t1.pdb
+C:\Users\Swist\Desktop\c#\week2\w2_t1\obj\Debug\w2_t1.csprojAssemblyReference.cache
+C:\Users\Swist\Desktop\c#\week2\w2_t1\obj\Debug\w2_t1.csproj.CoreCompileInputs.cache
+C:\Users\Swist\Desktop\c#\week2\w2_t1\obj\Debug\w2_t1.exe
+C:\Users\Swist\Desktop\c#\week2\w2_t1\obj\Debug\w2_t1.pdb

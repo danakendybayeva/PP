@@ -14,14 +14,13 @@ namespace w2_t4
             string path = @"C:\test";
             string path2 = @"C:\test2";
             string fileName = "file.txt";
-            string destFile = System.IO.Path.Combine(path2, fileName);
+            string destFile = Path.Combine(path2, fileName);
             DirectoryInfo di = new DirectoryInfo(path);
             if(di.Exists)
             {
                 di.Delete(true);
             }
             di.Create();
-
             DirectoryInfo di2 = new DirectoryInfo(path2);
             if (di2.Exists)
             {

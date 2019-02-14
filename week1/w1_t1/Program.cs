@@ -17,7 +17,7 @@ namespace w1_t1
             bool x = true;
             if (a != 1)
             {
-                for (int i = 2; i < a; ++i)
+                for (int i = 2; i < a; i++)
                 {
                     if (a % i == 0)
                     {
@@ -39,7 +39,7 @@ namespace w1_t1
             string ans = "";// string for output
             for (int i = 0; i < n; i++)
             {
-                a[i] = int.Parse(nums[i]); // converting from string to int
+                a[i] = Convert.ToInt32(nums[i]); // converting from string to int
                 if (Prime(a[i])) // checking if the number is prime or not
                 {
                     cnt++; // if number is prime the counter increases for 1
