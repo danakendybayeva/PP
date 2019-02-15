@@ -19,11 +19,11 @@ namespace w2_t3
             {
                 //if the file is folder the program does next steps
                 //puting all files from this folder to array
-                FileSystemInfo[] arr = ((DirectoryInfo)fsi).GetFileSystemInfos();
-                for (int i = 0; i < arr.Length; i++)
+                FileSystemInfo[] arr = (fsi as DirectoryInfo).GetFileSystemInfos();
+                foreach (var x in arr)
                 {
                     //outputing all the files with increased number of blank spaces
-                    PrintInfo(arr[i], k + 4);
+                    PrintInfo(x, k + 4);
                 }
             }
         }

@@ -32,11 +32,11 @@ namespace w2_t4
             }
             di2.Create();
             //streamwriter allows to create a text file
-            StreamWriter sw = File.CreateText(@"C:\test\file.txt");
+            StreamWriter sw = File.CreateText(sourceFile);
             sw.Close();//closing the streamwriter session
-            //copying a file to another location and overwriting the destination file
-            File.Copy(sourceFile, destFile, true);
             //moving a file to new location
+            if (File.Exists(destFile))
+                File.Delete(destFile);
             File.Move(sourceFile, destFile);
 
             if (Directory.Exists(path))//for deleting a folder with files
