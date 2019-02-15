@@ -14,7 +14,11 @@ namespace w2_t4
             string path = @"C:\test";
             string path2 = @"C:\test2";
             string fileName = "file.txt";
+            string sourceFile = Path.Combine(path, fileName);
             string destFile = Path.Combine(path2, fileName);
+            //lines from 18 to 30 stands for creating folders from path and path2
+            //first we check if the same folder exists and delete it if it is
+            //then we create the folder
             DirectoryInfo di = new DirectoryInfo(path);
             if(di.Exists)
             {
@@ -27,37 +31,24 @@ namespace w2_t4
                 di2.Delete(true);
             }
             di2.Create();
-
+            //streamwriter allows to create a text file
             StreamWriter sw = File.CreateText(@"C:\test\file.txt");
-            sw.Close();
+            sw.Close();//closing the streamwriter session
+            //copying a file to another location and overwriting the destination file
+            File.Copy(sourceFile, destFile, true);
+            //moving a file to new location
+            File.Move(sourceFile, destFile);
 
-            if (Directory.Exists(path))
-            {
-                string[] files = Directory.GetFiles(path);
-
-                foreach (string s in files)
-                {
-                    fileName = Path.GetFileName(s);
-                    destFile = Path.Combine(path2, fileName);
-                    File.Copy(s, destFile, true);
-                }
-            }
-            else
-            {
-                Console.WriteLine("Source path does not exist!");
-            }
-
-            File.Move(destFile, @"C:\test2\file.txt");
-
-            if (Directory.Exists(path))
+            if (Directory.Exists(path))//for deleting a folder with files
             {
                 try
                 {
-                    Directory.Delete(path, true);
+                    Directory.Delete(path, true);//deleting folder
                 }
 
                 catch (IOException e)
                 {
+                    //if any errors occur the computer sends a message about the error
                     Console.WriteLine(e.Message);
                 }
             }

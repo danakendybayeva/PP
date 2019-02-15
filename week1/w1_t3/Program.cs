@@ -10,7 +10,7 @@ namespace w1_t3
     {
         static void DoubleNum(int[] a)
         {
-            int n = a.Length;   
+            int n = a.Length; //assigning length of array to n  
             int[] a2 = new int[n * 2]; // array for output nums
             for (int i = 0; i < n; i++) // running through array of input num
             {
@@ -29,7 +29,7 @@ namespace w1_t3
             {
                 a[i] = Convert.ToInt32(nums[i]); //convert from string to int
             }
-                DoubleNum(a);
+                DoubleNum(a);//calling the function
         }
     }
 }

@@ -11,6 +11,7 @@ namespace w2_t1
     {
         static bool IsPalindrome(string s)
         {
+            // function for checking whether the word is palindrome or not
             if (s.Length <= 1)
                 return true;
             else
@@ -24,7 +25,8 @@ namespace w2_t1
 
         static void Main(string[] args)
         {
-            string s = File.ReadAllText(@"C:\Users\Swist\Desktop\c#\week2\input1.txt");
+            string s = File.ReadAllText(@"C:\Users\Swist\Desktop\c#\week2\input1.txt");//taking the input from file
+            // checking for palindrome of word and output the answer
             if (IsPalindrome(s)) Console.WriteLine("Yes");
             else Console.WriteLine("No");
         }

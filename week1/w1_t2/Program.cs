@@ -8,6 +8,7 @@ namespace w1_t2
 {
     class Student
     {
+        //creating variables
         string id;
         string name;
         int year = 1;
@@ -36,7 +37,7 @@ namespace w1_t2
             Student s = new Student("18BD45679", "Asem");// adding new student
             s.GetData();// method for showing id and name
             s.IncreamentYear();//method for incrementing year
-            s.GetData();
+            s.GetData();// method for showing id and name
         }
     }
 }
