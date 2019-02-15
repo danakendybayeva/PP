@@ -55,7 +55,7 @@ namespace w3_t1
             Console.BackgroundColor = ConsoleColor.Black;//makes the background of cmd black
             Console.Clear();//erase everthing from cmd
 
-            for (int i = 0; i < Content.Length; ++i)
+            for (int i = 0; i < Content.Length; i++)
             {
                 if (i == SelectedItem)
                 {
