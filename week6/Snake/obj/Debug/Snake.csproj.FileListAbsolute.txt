@@ -1,0 +1,8 @@
+C:\Users\Swist\Desktop\c#\week6\Snake\bin\Debug\Levels\Level1.txt
+C:\Users\Swist\Desktop\c#\week6\Snake\bin\Debug\Snake.exe.config
+C:\Users\Swist\Desktop\c#\week6\Snake\bin\Debug\Snake.exe
+C:\Users\Swist\Desktop\c#\week6\Snake\bin\Debug\Snake.pdb
+C:\Users\Swist\Desktop\c#\week6\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\Swist\Desktop\c#\week6\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Swist\Desktop\c#\week6\Snake\obj\Debug\Snake.exe
+C:\Users\Swist\Desktop\c#\week6\Snake\obj\Debug\Snake.pdb

@@ -8,6 +8,7 @@ namespace Game
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             #region Vars
@@ -32,16 +33,19 @@ namespace Game
 
             Console.CursorVisible = false;
             #endregion
-
             // build welcome screen
+            Console.WriteLine("Enter your name:");
+            string userName = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Hello {0}", userName);
             ShowMenu(out userAction);
             // give player option to read directions
             do
             {
-                
             
                 switch (userAction)
                 {
+
                     #region Case Play
                     case "1":
                     case "p":
@@ -118,7 +122,6 @@ namespace Game
                             // detect when apple was eaten
                             isAppleEaten = DetermineIfAppleWasEaten(xPosition[0], yPosition[0], appleXDim, appleYDim);
 
-
                             // Place apple on board(random)
                             if (isAppleEaten)
                             {
@@ -128,8 +131,9 @@ namespace Game
                                 applesEaten++;
                                 // make snake faster
                                 gameSpeed *= .925m;
+                                
                             }
-
+                            
                             if (Console.KeyAvailable) command = Console.ReadKey().Key;
                             //slow game down
                             System.Threading.Thread.Sleep(Convert.ToInt32(gameSpeed));
@@ -153,12 +157,9 @@ namespace Game
                         break;
                 }
             } while (isStayInMenu);
-
-
-
-
-
         }
+
+        
 
         #region Methods
         #region Menu
@@ -243,6 +244,21 @@ namespace Game
             if (xPosition == appleXDim && yPosition == appleYDim) return true;
             return false;
 
+        }
+        public bool IsIntersected(List<Point> points)
+        {
+            bool res = false;
+
+            foreach(Point p in points)
+            {
+                if(p.X == body[0].X && p.Y == body[0].Y)
+                {
+                    res = true;
+                    break;
+                }
+            }
+
+            return res;
         }
         #endregion
     }
