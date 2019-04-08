@@ -1,0 +1,10 @@
+C:\Users\Swist\Desktop\c#\week8\calculator\bin\Debug\calculator.exe.config
+C:\Users\Swist\Desktop\c#\week8\calculator\bin\Debug\calculator.exe
+C:\Users\Swist\Desktop\c#\week8\calculator\bin\Debug\calculator.pdb
+C:\Users\Swist\Desktop\c#\week8\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\Users\Swist\Desktop\c#\week8\calculator\obj\Debug\calculator.Form1.resources
+C:\Users\Swist\Desktop\c#\week8\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\Swist\Desktop\c#\week8\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+C:\Users\Swist\Desktop\c#\week8\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\Swist\Desktop\c#\week8\calculator\obj\Debug\calculator.exe
+C:\Users\Swist\Desktop\c#\week8\calculator\obj\Debug\calculator.pdb

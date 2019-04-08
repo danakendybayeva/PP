@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Teacher xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>A</name>
+  <surname>B</surname>
+  <salary>1000</salary>
+</Teacher>
